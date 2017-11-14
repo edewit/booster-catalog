@@ -1,16 +1,10 @@
 {
     "missions":[
-        {"id": "configmap", "name":"Externalized Configuration"},
-        {"id": "crud", "name":"CRUD"},
-        {"id": "health-check", "name":"Health Check"},
-        {"id": "rest-http", "name":"REST API Level 0"},
-        {"id": "rest-http-secured", "name":"Secured"},
-        {"id": "circuit-breaker", "name":"Circuit Breaker"}
+        {"id": "plugin", "name":"Plugin Example"}
     ],
     "runtimes":[
-        {"id": "wildfly-swarm", "name":"WildFly Swarm"},
-        {"id": "vert.x", "name":"Eclipse Vert.x"},
-        {"id": "spring-boot", "name":"Spring Boot"},
-        {"id": "nodejs", "name": "Node.js"}
+        {"id": "bukkit", "name":"Bukkit plugin"},
+        {"id": "sponge", "name":"Sponge plugin"},
+        {"id": "forge", "name": "Forge plugin"}
     ]
 }
