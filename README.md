@@ -4,7 +4,7 @@ Set of known example applications (Boosters) conforming to the minimal set of re
 - next: this is the branch from which we'll cut the next tag
 - openshift-online-free; this is the branch read by launch.openshift.io and launch.prod-preview.openshift.io[].  Only the Boosters capable of running in the OSO Free environment are included here.
 
-The repository has a `metadata.json` file in the root containing a list of the supported missions and runtimes along with their human-readable names.
+The repository has a `metadata.json` file in the root containing a list of the supported missions and runtimes along with their human-readable names. When you add a runtime you have the option to add an `icon` value, you can put a data:url or a link to an icon.
 
 IMPORTANT: If a new mission or runtime is introduced, you MUST change the `metadata.json` file too. 
 
