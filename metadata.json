@@ -1,6 +1,6 @@
 {
     "missions":[
-        {"id": "configmap", "name":"Externalized Configuration"},
+        {"id": "configmap", "name":"Externalized Configuration", "description": "The Externalized Configuration Mission provides a basic example of using a ConfigMap to externalize configuration. ConfigMap is an object used by OpenShift to inject configuration data as simple key and value pairs into one or more Linux containers while keeping the containers independent of OpenShift."},
         {"id": "crud", "name":"CRUD"},
         {"id": "health-check", "name":"Health Check"},
         {"id": "rest-http", "name":"REST API Level 0"},
