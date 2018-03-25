@@ -1,0 +1,8 @@
+name: Sponge plugin Example
+description: Quickstart to setup a very basic plugin template
+source:
+  git:
+    url: https://github.com/edewit/minecraft-che-test
+    ref: sync-plugin
+metadata:
+  worksWithLegacyOsio: true
